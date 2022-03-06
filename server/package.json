@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navasmo/MA.git",
+    "url": "git+https://github.com/navasmo/MA.git"
   },
   "scripts": {
     "client": "cd ../medical-app && npm start",
