@@ -9,7 +9,8 @@
   "scripts": {
     "client": "cd ../medical-app && npm start",
     "server": "node server.js",
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
